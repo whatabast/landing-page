@@ -7,6 +7,26 @@
 
 .header {
     display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .info {
