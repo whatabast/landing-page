@@ -1,0 +1,22 @@
+/* This is a style sheet for the second project */
+/* I am attempting to make a 'landing page' */
+
+.body {
+    
+}
+
+.header {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.god {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
