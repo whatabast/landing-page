@@ -130,13 +130,28 @@ li {
 
 .foot-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 1%;
     /* width: 100px; */
     font-size: 24px;
     font-weight: 300;
+}
 
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left .call {
+    font-size: 36px;
+    font-weight: 900;
+    /* border: 5px solid red; */
 }
 
 button {
@@ -145,7 +160,9 @@ button {
     border: 1px solid #F9FAF8;
     border-radius: 5px;
     padding: 1%;
-    width: 100px;
+    margin: 3% 0 3% 0 ;
+    width: 200px;
+    /* flex-direction: 1 1 auto; */
     font-size: 24px;
     font-weight: 300;
 }
