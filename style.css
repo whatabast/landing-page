@@ -2,7 +2,7 @@
 /* I am attempting to make a 'landing page' */
 
 .body {
-    
+    height: 100vh;
 }
 
 .header {
@@ -73,6 +73,23 @@ li {
 
 .god {
     display: flex;
+    justify-content: space-evenly;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspire {
+    width: 600px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.thor {
+    /* align-self: flex-end; */
+    margin-left: 10%;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .footer {
