@@ -11,6 +11,7 @@
     color: white;
     justify-content: space-between;
     align-items: center;
+    padding: 3%;
 }
 
 .logo {
@@ -27,6 +28,7 @@ ul {
 li {
     color: #E5E7EB;
     font-size: 18px;
+    padding: 1%;
 }
 
 .info {
@@ -77,12 +79,14 @@ li {
     background-color: #E5E7EB;
     flex-direction: column;
     align-items: center;
+    padding: 3%;
 }
 
 .inspire {
     width: 600px;
     font-size: 36px;
     font-weight: 300;
+    padding: 2%;
 }
 
 .thor {
@@ -90,6 +94,7 @@ li {
     margin-left: 10%;
     font-size: 24px;
     font-weight: 600;
+    padding: 1%;
 }
 
 .footer {
